@@ -11,3 +11,6 @@ chip area after synthesis
 ![image](https://github.com/user-attachments/assets/76dbd9ca-5222-4032-aef5-5b73beb80f52)
 
 Flop ratio = Number of flops / Number of cells = 1613/14876 = 0.1084 => 10.84%
+
+# DAY 2 
+![image](https://github.com/user-attachments/assets/853d6c5e-4e2e-443d-a6b4-6e51d3072482)
