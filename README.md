@@ -21,6 +21,14 @@ Flop ratio = Number of flops / Number of cells = 1613/14876 = 0.1084 => 10.84%
 ## floorplan config:
 ![image](https://github.com/user-attachments/assets/bc0f5a39-a31e-42a4-9ebb-2c46879ab7ee)
 
+## Die area from floorplan DEF
+![image](https://github.com/user-attachments/assets/048fbc5a-390a-4298-a40f-32c32efdfaf6)
+``` 1000 DBS = 1 Micron
+Die width = 660685/1000 = 660.685 um
+Die height =  671405/1000 = 671.405 um 
+Die Area = 660.685 * 671.405 = 443587.212425 sq.um
+```
+
 ## floorplan snapshot
 Using **MAGIC tool**
 
@@ -35,5 +43,27 @@ command: ```magic -T home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/s
 
 ## Standard cells in lower left corner (origin)
 ![image](https://github.com/user-attachments/assets/dd01e8b1-0072-4588-b01a-9eb7f9fe6223)
+
+## Placement
+### With default configuration
+![image](https://github.com/user-attachments/assets/f26bf173-4817-4820-a785-c4b44257aec1)
+
+![image](https://github.com/user-attachments/assets/f22f2e1c-a2c3-456e-8876-9fed9f1141f6)
+
+### Timing driven placement
+![image](https://github.com/user-attachments/assets/b6a575fb-20a9-4ecc-abd1-36005fe19e09)
+
+### What happens when PL_ROUTABILITY_DRIVEN and PL_TIME_DRIVEN are set to true?
+![image](https://github.com/user-attachments/assets/5eda957a-83d1-409c-88f2-37cc5d2a17f9)
+![image](https://github.com/user-attachments/assets/d34c6bbd-a669-46e0-810d-a59d96d6befa)
+
+### Routability driven
+![image](https://github.com/user-attachments/assets/8f301451-efae-47a2-9389-8be477876d41)
+
+![image](https://github.com/user-attachments/assets/9e530148-3199-40ad-b3ae-724cb21fed67)
+
+
+
+
 
 
