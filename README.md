@@ -22,6 +22,9 @@ Flop ratio = Number of flops / Number of cells = 1613/14876 = 0.1084 => 10.84%
 ![image](https://github.com/user-attachments/assets/bc0f5a39-a31e-42a4-9ebb-2c46879ab7ee)
 
 ## floorplan snapshot
+Using **MAGIC tool**
+
+command: ```magic -T home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.floorplan.def &```
 ![image](https://github.com/user-attachments/assets/b7cba886-54cf-4687-9d84-ddf4e3fbb168)
 
 ## equi-distance pins
