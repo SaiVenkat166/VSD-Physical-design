@@ -62,7 +62,27 @@ command: ```magic -T home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/s
 
 ![image](https://github.com/user-attachments/assets/9e530148-3199-40ad-b3ae-724cb21fed67)
 
+# DAY 3 
+Inverter layout
 
+![image](https://github.com/user-attachments/assets/6a6781b3-92e0-46af-b5be-8b00605c2660)
+
+## Some DRC issues with sky130_inv layout (unchanged)
+![image](https://github.com/user-attachments/assets/847f023e-7156-4069-8e26-eaadd877a90e)
+
+## generate spice from layout
+use following commands:
+
+![image](https://github.com/user-attachments/assets/8d892b35-9dc3-4a40-84ed-973db999a5a5)
+
+Spice netlist (unchanged)
+![image](https://github.com/user-attachments/assets/8b667212-56e9-4a3e-b7ed-2d4d30fd53d8)
+
+grid size:
+![image](https://github.com/user-attachments/assets/75f50304-fe86-412d-9e0a-7b099923dd2b)
+
+
+``` ext2spice cthresh 0 rthresh 0 ``` to set the threshold of value of cap and resistance to 0. Basically to include every capacitor and resistor in netlist even if it's value is small.
 
 
 
