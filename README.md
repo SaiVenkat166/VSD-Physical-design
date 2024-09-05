@@ -96,6 +96,7 @@ Changed load cap to ```2fF``` to smoothen the output voltage waveform
 2.Fall Transistion -> time taken for output to reach 80% to 20% of ideal voltage
 3.Rise cell delay -> difference between time at which cell input is at 50% of ideal voltage to cell rising output at 50% of ideal voltage
 4.Fall cell delay -> difference between time at which cell input is at 50% of ideal voltage to cell falling output at 50% of ideal voltage
+```
 >>> 0.8*3.3 #80% of ideal voltage
 2.64
 >>> 0.2*3.3 #20% of ideal voltage
@@ -126,5 +127,5 @@ x0 = 4.04997e-09, y0 = 1.64995
 x0 = 4.07536e-09, y0 = 1.65
 >>> 4.07536e-09-4.04997e-09
 2.538999999999964e-11s
-
+```
 
