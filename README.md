@@ -129,3 +129,9 @@ x0 = 4.07536e-09, y0 = 1.65
 2.538999999999964e-11s
 ```
 
+![image](https://github.com/user-attachments/assets/53e64007-d48e-4875-b51c-a8e7d403de18)
+![image](https://github.com/user-attachments/assets/c7d733bf-26b4-433a-bdf8-91ad278c7529)
+![image](https://github.com/user-attachments/assets/25d4f7fb-9783-4dab-89eb-5e4cbe3847c8)
+
+
+
