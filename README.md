@@ -84,6 +84,47 @@ grid size:
 
 ``` ext2spice cthresh 0 rthresh 0 ``` to set the threshold of value of cap and resistance to 0. Basically to include every capacitor and resistor in netlist even if it's value is small.
 
+## SPICE netlist after extraction
+Changed load cap to ```2fF``` to smoothen the output voltage waveform
+![image](https://github.com/user-attachments/assets/37479b73-7094-45c8-a30e-d27d3b0bc10e)
 
+## Run ngspice (install using ```sudo apt install ngspice```)
+![image](https://github.com/user-attachments/assets/da179ffb-86a7-43ef-91aa-20ea9127f041)
+
+4 important parameters to measure from the output waveform:
+1.Rise Transistion -> time taken for output to reach 20% to 80% of ideal voltage
+2.Fall Transistion -> time taken for output to reach 80% to 20% of ideal voltage
+3.Rise cell delay -> difference between time at which cell input is at 50% of ideal voltage to cell rising output at 50% of ideal voltage
+4.Fall cell delay -> difference between time at which cell input is at 50% of ideal voltage to cell falling output at 50% of ideal voltage
+>>> 0.8*3.3 #80% of ideal voltage
+2.64
+>>> 0.2*3.3 #20% of ideal voltage
+0.66
+>>> 0.5*3.3 #50% of ideal voltage
+1.65
+
+1.Rise Transistion time:
+x0 = 2.23924e-09, y0 = 2.64025
+x0 = 2.17956e-09, y0 = 0.66037
+>>> 2.23924e-09-2.17956e-09
+5.967999999999994e-11s
+
+2.Fall Transistion:
+x0 = 4.05083e-09, y0 = 2.64021
+x0 = 4.09317e-09, y0 = 0.660208
+>>> 4.09317e-09-4.05083e-09
+4.23400000000005e-11s
+
+3.Rise cell delay
+x0 = 2.15e-09, y0 = 1.65
+x0 = 2.2072e-09, y0 = 1.65
+>>> 2.2072e-09-2.15e-09
+5.7200000000000175e-11s
+
+4.Fall cell delay
+x0 = 4.04997e-09, y0 = 1.64995
+x0 = 4.07536e-09, y0 = 1.65
+>>> 4.07536e-09-4.04997e-09
+2.538999999999964e-11s
 
 
