@@ -147,6 +147,10 @@ pin definitions
 ![image](https://github.com/user-attachments/assets/ca7b4bf7-0002-420c-901c-ffa57695fb79)
 ![image](https://github.com/user-attachments/assets/68bf211e-54dc-4fbc-81eb-25d3e36e145b)
 
+![image](https://github.com/user-attachments/assets/d9846c36-94e5-401a-bae4-1c694186f1fd)
+![image](https://github.com/user-attachments/assets/4e541ebf-d283-463a-a1bc-8a118f1c66b0)
+
+
 
 
 
