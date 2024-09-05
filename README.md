@@ -133,5 +133,22 @@ x0 = 4.07536e-09, y0 = 1.65
 ![image](https://github.com/user-attachments/assets/c7d733bf-26b4-433a-bdf8-91ad278c7529)
 ![image](https://github.com/user-attachments/assets/25d4f7fb-9783-4dab-89eb-5e4cbe3847c8)
 
+conditions:
+![image](https://github.com/user-attachments/assets/484ebaf5-625e-4f42-8bfa-eb3936e4fcab)
+
+pin definitions
+![image](https://github.com/user-attachments/assets/f7e7ea80-4c29-4ad0-bd5a-8d1c2678e9f8)
+![image](https://github.com/user-attachments/assets/c9da2387-7dea-42b6-a7cd-1a5f17805adb)
+![image](https://github.com/user-attachments/assets/05028b18-08b3-4612-8240-512af885af8a)
+![image](https://github.com/user-attachments/assets/c63ff159-5431-4b26-b70c-67b08b552ca6)
+![image](https://github.com/user-attachments/assets/23dbdab3-aab9-4f1f-8af0-0643246a0669)
+![image](https://github.com/user-attachments/assets/1bedb3e4-53c6-4215-9769-13ac8a502a61)
+
+
+
+
+
+
+
 
 
