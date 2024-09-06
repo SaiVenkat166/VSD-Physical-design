@@ -164,10 +164,25 @@ and my_base.sdc file
 cd Desktop/work/tools/openlane_working_dir/openlane
 
 # Command to invoke OpenSTA tool with script
-sta pre_sta.conf```
-
+sta pre_sta.conf
+```
 ![image](https://github.com/user-attachments/assets/2e9872f5-3e58-4b57-9f9a-160a11c5d1c5)
 
+Try out different things to make the slack positive if it is not met
+```
+replace_cell instance_name cell_to_be_replaced_with
+report_checks -fields {net cap slew input_pins} -digits 4
+report_tns
+report_wns
+write_verilog <path> #to dumpout the final netlist with modifications
+```
+![image](https://github.com/user-attachments/assets/09a7c356-c608-4ce8-b348-8fe986c53848)
+
+##Run CTS
+![image](https://github.com/user-attachments/assets/22ced480-7cf1-482b-9a42-898c80e61f7e)
+
+After CTS:
+![image](https://github.com/user-attachments/assets/f54e1722-35d0-4037-9c91-502b2d521f4e)
 
 
 
