@@ -153,6 +153,7 @@ pin definitions
 Custom cell placed in design
 ![image](https://github.com/user-attachments/assets/0427f12b-8f1b-4748-b913-3679e7107885)
 
+Post-Synthesis timing analysis with OpenSTA tool.
 
 
 
