@@ -150,6 +150,9 @@ pin definitions
 ![image](https://github.com/user-attachments/assets/d9846c36-94e5-401a-bae4-1c694186f1fd)
 ![image](https://github.com/user-attachments/assets/4e541ebf-d283-463a-a1bc-8a118f1c66b0)
 
+Custom cell placed in design
+![image](https://github.com/user-attachments/assets/0427f12b-8f1b-4748-b913-3679e7107885)
+
 
 
 
