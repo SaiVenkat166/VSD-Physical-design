@@ -154,7 +154,19 @@ Custom cell placed in design
 ![image](https://github.com/user-attachments/assets/0427f12b-8f1b-4748-b913-3679e7107885)
 
 Post-Synthesis timing analysis with OpenSTA tool.
+create pre_sta.conf file
+![image](https://github.com/user-attachments/assets/e277c1a8-5886-440e-a4a5-0f8eb8e7f27e)
 
+and my_base.sdc file
+![image](https://github.com/user-attachments/assets/33d952b3-9710-48a5-b812-3bd2af84f482)
+
+```# Change directory to openlane
+cd Desktop/work/tools/openlane_working_dir/openlane
+
+# Command to invoke OpenSTA tool with script
+sta pre_sta.conf```
+
+![image](https://github.com/user-attachments/assets/2e9872f5-3e58-4b57-9f9a-160a11c5d1c5)
 
 
 
