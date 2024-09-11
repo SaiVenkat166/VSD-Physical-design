@@ -178,7 +178,7 @@ write_verilog <path> #to dumpout the final netlist with modifications
 ```
 ![image](https://github.com/user-attachments/assets/09a7c356-c608-4ce8-b348-8fe986c53848)
 
-##Run CTS
+## Run CTS
 ![image](https://github.com/user-attachments/assets/22ced480-7cf1-482b-9a42-898c80e61f7e)
 
 After CTS:
@@ -193,6 +193,20 @@ OPENROAD
 
 Clock skew for setup and hold:
 ![image](https://github.com/user-attachments/assets/be7b20cb-3219-4ed3-bc91-aa062549d77f)
+
+# DAY 5
+
+## Routing
+gen_pdn
+![image](https://github.com/user-attachments/assets/e90c24e6-c67d-43bc-987e-e2e9ecf29d12)
+pdn generated successfully
+![image](https://github.com/user-attachments/assets/88db6c56-9109-44a8-bcee-00e76ab5e04f)
+
+run_routing
+![image](https://github.com/user-attachments/assets/818696b8-a6f6-4e3d-8025-c137bd23acea)
+
+
+
 
 
 
