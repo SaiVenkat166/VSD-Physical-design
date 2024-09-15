@@ -75,10 +75,10 @@ use following commands:
 
 ![image](https://github.com/user-attachments/assets/8d892b35-9dc3-4a40-84ed-973db999a5a5)
 
-Spice netlist (unchanged)
+## Spice netlist (unchanged)
 ![image](https://github.com/user-attachments/assets/8b667212-56e9-4a3e-b7ed-2d4d30fd53d8)
 
-grid size:
+## grid size:
 ![image](https://github.com/user-attachments/assets/75f50304-fe86-412d-9e0a-7b099923dd2b)
 
 
@@ -91,7 +91,7 @@ Changed load cap to ```2fF``` to smoothen the output voltage waveform
 ## Run ngspice (install using ```sudo apt install ngspice```)
 ![image](https://github.com/user-attachments/assets/da179ffb-86a7-43ef-91aa-20ea9127f041)
 
-4 important parameters to measure from the output waveform:
+## 4 important parameters to measure from the output waveform:
 1.Rise Transistion -> time taken for output to reach 20% to 80% of ideal voltage
 2.Fall Transistion -> time taken for output to reach 80% to 20% of ideal voltage
 3.Rise cell delay -> difference between time at which cell input is at 50% of ideal voltage to cell rising output at 50% of ideal voltage
@@ -133,10 +133,10 @@ x0 = 4.07536e-09, y0 = 1.65
 ![image](https://github.com/user-attachments/assets/c7d733bf-26b4-433a-bdf8-91ad278c7529)
 ![image](https://github.com/user-attachments/assets/25d4f7fb-9783-4dab-89eb-5e4cbe3847c8)
 
-conditions:
+## conditions:
 ![image](https://github.com/user-attachments/assets/484ebaf5-625e-4f42-8bfa-eb3936e4fcab)
 
-pin definitions
+## pin definitions
 ![image](https://github.com/user-attachments/assets/f7e7ea80-4c29-4ad0-bd5a-8d1c2678e9f8)
 ![image](https://github.com/user-attachments/assets/c9da2387-7dea-42b6-a7cd-1a5f17805adb)
 ![image](https://github.com/user-attachments/assets/05028b18-08b3-4612-8240-512af885af8a)
@@ -150,10 +150,11 @@ pin definitions
 ![image](https://github.com/user-attachments/assets/d9846c36-94e5-401a-bae4-1c694186f1fd)
 ![image](https://github.com/user-attachments/assets/4e541ebf-d283-463a-a1bc-8a118f1c66b0)
 
-Custom cell placed in design
+## Custom cell placed in design
 ![image](https://github.com/user-attachments/assets/0427f12b-8f1b-4748-b913-3679e7107885)
 
-Post-Synthesis timing analysis with OpenSTA tool.
+# Day 4
+## Post-Synthesis timing analysis with OpenSTA tool.
 create pre_sta.conf file
 ![image](https://github.com/user-attachments/assets/e277c1a8-5886-440e-a4a5-0f8eb8e7f27e)
 
@@ -181,17 +182,17 @@ write_verilog <path> #to dumpout the final netlist with modifications
 ## Run CTS
 ![image](https://github.com/user-attachments/assets/22ced480-7cf1-482b-9a42-898c80e61f7e)
 
-After CTS:
+## After CTS:
 ![image](https://github.com/user-attachments/assets/f54e1722-35d0-4037-9c91-502b2d521f4e)
 
 
-OPENROAD
+## OPENROAD
 ![image](https://github.com/user-attachments/assets/b71fc801-e5d6-4f51-8d8c-8d97b409d01b)
 
 
 ![image](https://github.com/user-attachments/assets/a90af6d2-633c-421a-bc04-30b84400e682)
 
-Clock skew for setup and hold:
+## Clock skew for setup and hold:
 ![image](https://github.com/user-attachments/assets/be7b20cb-3219-4ed3-bc91-aa062549d77f)
 
 # DAY 5
@@ -206,6 +207,9 @@ run_routing
 ![image](https://github.com/user-attachments/assets/818696b8-a6f6-4e3d-8025-c137bd23acea)
 
 ![image](https://github.com/user-attachments/assets/6813a5f7-befb-4545-a124-cd34a000419b)
+
+SPEF file generated after routing is done
+![image](https://github.com/user-attachments/assets/872f945b-31a0-4891-8795-8856fc1645f7)
 
 
 
