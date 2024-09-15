@@ -197,18 +197,17 @@ write_verilog <path> #to dumpout the final netlist with modifications
 
 # DAY 5
 
-## Routing
-gen_pdn
+## Routing gen_pdn
 ![image](https://github.com/user-attachments/assets/e90c24e6-c67d-43bc-987e-e2e9ecf29d12)
-pdn generated successfully
+### pdn generated successfully
 ![image](https://github.com/user-attachments/assets/88db6c56-9109-44a8-bcee-00e76ab5e04f)
 
-run_routing
+## run_routing
 ![image](https://github.com/user-attachments/assets/818696b8-a6f6-4e3d-8025-c137bd23acea)
 
 ![image](https://github.com/user-attachments/assets/6813a5f7-befb-4545-a124-cd34a000419b)
 
-SPEF file generated after routing is done
+## SPEF file generated after routing is done
 ![image](https://github.com/user-attachments/assets/872f945b-31a0-4891-8795-8856fc1645f7)
 
 
