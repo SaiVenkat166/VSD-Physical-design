@@ -1,4 +1,4 @@
-# DAY 1 Design preparation and Synthesis using OPENLANE Flow #
+# DAY 1 Design preparation and Synthesis using OPENLANE Flow
 
 ## Design prep
 ![image](https://github.com/user-attachments/assets/9fec2a7f-a71d-46f9-bea4-0b0ec1edc980)
